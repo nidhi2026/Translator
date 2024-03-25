@@ -14,7 +14,7 @@ from deep_translator import GoogleTranslator
 from taipy.gui import Gui
 import google.generativeai as palm
 import sys
-sys.path.insert(0, '/tiny/palm')  # Add the directory path
+sys.path.insert(0, '/')  # Add the directory path to config.py
 import config
 
 # API Key
